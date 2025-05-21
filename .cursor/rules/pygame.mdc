@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Guidelines for consistent and maintainable game development using Pygame and Python.
+globs: **/*.py
+---
+# Pygame Development Guidelines
+
+These guidelines ensure consistent and maintainable game development practices with Pygame.
+
+## Architecture Principles
+
+* **Object-Oriented Design:** All entities in the game (characters, obstacles, UI elements, etc.) should be implemented as classes to promote encapsulation and reusability.
+## Technology Requirements
+
+* **Programming Language:** Use Python as the primary programming language for all game development.
+* **Game Framework:** Use Pygame library for handling graphics, sound, input, and other game-related functionality.
+
+## Implementation Practices
+
+* **Entity Structure:** Represent each game entity (player, enemy, projectile, etc.) as a separate class with appropriate properties and methods.
+* **Component Organization:** Consider using component-based design for complex entities with multiple behaviors.
+* **Inheritance:** Use inheritance hierarchies where appropriate (e.g., a base Entity class with specialized subclasses).
+* **Vector Calculations:** Use Pygame vectors for positional and dimensional calculations.
